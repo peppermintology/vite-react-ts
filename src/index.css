@@ -1,0 +1,15 @@
+/*noinspection CssUnknownTarget*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p > a {
+    color: #FFF;
+    cursor: pointer;
+    padding: 1rem .25rem;
+    text-decoration: underline;
+    text-decoration-color: theme('colors.pink.500');
+    text-underline-offset: .25rem;
+}
